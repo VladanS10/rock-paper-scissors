@@ -1,0 +1,93 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section#message {
+  margin: 10px 0px;
+  color: #ffffff;
+  height: 50px;
+}
+
+section.score-board {
+  width: 100%;
+}
+
+section.score-board .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px auto;
+  width: 100%;
+}
+
+section.score-board .container .score {
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid white;
+  color: white;
+  position: relative;
+  width: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.score-board .container .score label {
+  position: absolute;
+  padding: 0px 4px;
+}
+
+section.score-board .container .score label.left {
+  left: -100%;
+  -webkit-transform: translate(30%, 0px);
+          transform: translate(30%, 0px);
+}
+
+section.score-board .container .score label.right {
+  right: -100%;
+  -webkit-transform: translate(50%, 0px);
+          transform: translate(50%, 0px);
+}
+
+main {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+main .item {
+  margin: 0px 10px;
+  border-radius: 100px;
+  border: 3px solid gray;
+  cursor: pointer;
+}
+
+main .item:hover {
+  border: 3px solid red;
+}
+/*# sourceMappingURL=style.css.map */
